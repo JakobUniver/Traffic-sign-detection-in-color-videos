@@ -1,8 +1,8 @@
-train: ./train
-test: ./test
-valid: ./val
+train: ./Traffic-sign-detection-in-color-videos/data/data_yolo/train
+test: ./Traffic-sign-detection-in-color-videos/data/data_yolo/test
+val: ./Traffic-sign-detection-in-color-videos/data/data_yolo/val
 #Classes
 nc: 4 # replace classes count 
 #classes names
 #replace all class names list with your custom classes
-namesnames: ['ts1', 'ts2', 'ts3', 'ts4']
+names: ['ts1', 'ts2', 'ts3', 'ts4']
