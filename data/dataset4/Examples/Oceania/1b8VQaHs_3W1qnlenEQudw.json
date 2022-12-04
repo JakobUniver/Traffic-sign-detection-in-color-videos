@@ -1,0 +1,91 @@
+{
+  "width": 1280, 
+  "objects": [
+    {
+      "properties": {
+        "ambiguous": false, 
+        "dummy": false, 
+        "direction-or-information": false, 
+        "barrier": false, 
+        "occluded": false, 
+        "out-of-frame": false, 
+        "exterior": false, 
+        "included": false, 
+        "highway": false
+      }, 
+      "bbox": {
+        "xmin": 225.3125, 
+        "ymin": 320.25, 
+        "ymax": 404.25, 
+        "xmax": 315.9375
+      }, 
+      "key": "05yzod4xo7vs45isuklwjt", 
+      "label": "warning--narrow-bridge--g1"
+    }, 
+    {
+      "properties": {
+        "ambiguous": false, 
+        "dummy": false, 
+        "direction-or-information": false, 
+        "barrier": false, 
+        "occluded": false, 
+        "out-of-frame": false, 
+        "exterior": false, 
+        "included": false, 
+        "highway": false
+      }, 
+      "bbox": {
+        "xmin": 856.875, 
+        "ymin": 459.5625, 
+        "ymax": 487.125, 
+        "xmax": 878.75
+      }, 
+      "key": "00fqx82sl6uvv24omcmxin", 
+      "label": "complementary--chevron-right--g1"
+    }, 
+    {
+      "properties": {
+        "ambiguous": false, 
+        "dummy": false, 
+        "direction-or-information": false, 
+        "barrier": false, 
+        "occluded": false, 
+        "out-of-frame": false, 
+        "exterior": false, 
+        "included": false, 
+        "highway": false
+      }, 
+      "bbox": {
+        "xmin": 544.0625, 
+        "ymin": 464.625, 
+        "ymax": 505.5, 
+        "xmax": 575.0
+      }, 
+      "key": "f5x3brhr2m97lgywegwsyf", 
+      "label": "complementary--chevron-right--g1"
+    }, 
+    {
+      "properties": {
+        "ambiguous": false, 
+        "dummy": false, 
+        "direction-or-information": false, 
+        "barrier": false, 
+        "occluded": false, 
+        "out-of-frame": false, 
+        "exterior": false, 
+        "included": false, 
+        "highway": false
+      }, 
+      "bbox": {
+        "xmin": 235.9375, 
+        "ymin": 403.6875, 
+        "ymax": 467.25, 
+        "xmax": 302.8125
+      }, 
+      "key": "kiejd3j6466mus5zmzkvo3", 
+      "label": "regulatory--priority-over-oncoming-vehicles--g1"
+    }
+  ], 
+  "ispano": false, 
+  "height": 768
+}
