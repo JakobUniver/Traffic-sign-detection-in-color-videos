@@ -1,1 +1,0 @@
-This Mapillary Traffic Sign Dataset is provided under the Creative Commons Attribution NonCommercial Share Alike (CC BY-NC-SA) license available here: https://creativecommons.org/licenses/by-nc/4.0/legalcode
