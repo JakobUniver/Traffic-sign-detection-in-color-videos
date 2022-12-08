@@ -65,12 +65,14 @@ def main():
         rval, frame = vc.read()
 
         # Find and classify traffic signs
+        
         signs_locs = find_signs(frame)
 
         # Draw boxes around signs with classes
         for i, d in signs_locs.pandas().xyxy[0].iterrows():
             s_class = classify_sign(frame,d) 
             frame = outline_sign(frame,d,s_class)
+        
 
         key = cv2.waitKey(10)
         if key == 27: # exit on ESC

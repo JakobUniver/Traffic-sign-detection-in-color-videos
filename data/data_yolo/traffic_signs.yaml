@@ -1,0 +1,8 @@
+train: ./Traffic-sign-detection-in-color-videos/data/data_yolo/train
+test: ./Traffic-sign-detection-in-color-videos/data/data_yolo/test
+val: ./Traffic-sign-detection-in-color-videos/data/data_yolo/val
+#Classes
+nc: 1 # replace classes count 
+#classes names
+#replace all class names list with your custom classes
+names: ['traffic_sign']

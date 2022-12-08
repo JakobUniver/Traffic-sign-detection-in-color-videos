@@ -1,1 +1,0 @@
-["speedlimit", "stop", "trafficlight", "crosswalk"]
