@@ -48,7 +48,7 @@ def main():
     cv2.namedWindow(window_name)
 
     # Get access to web cam
-    vc = cv2.VideoCapture(1)
+    vc = cv2.VideoCapture(0)
     
     frame_width = int(vc.get(3))
     frame_height = int(vc.get(4))
