@@ -12,11 +12,10 @@ Frame = np.array # shape(x,y,3)
 
 # Model imports
 g_yolo_model =  torch.hub.load('yolov7', 'custom', 'model.pt', source='local') 
-g_lenet_model = keras.models.load_model('lenet_model')
+g_lenet_model = keras.models.load_model('lenet_model2')
 
 # Configurations
-g_classes = pd.read_csv('lenet_classes.csv', header=0)[1:]
-g_classes = g_classes.columns[1:]
+g_classes = pd.read_csv('lenet_classes2.csv', index_col=0)
 print(g_classes)
 g_crop_shape = (64,64)
 
@@ -38,7 +37,7 @@ def classify_sign(frame:Frame,d:SignLoc)->SClass:
 def outline_sign(frame:Frame,d:SignLoc, s_class:SClass)->Frame:
     new_frame = frame#.copy()
     cv2.rectangle(new_frame, (int(d.xmin), int(d.ymin)), (int(np.ceil(d.xmax)), int(np.ceil(d.ymax))), (255,0,0), 2)
-    new_frame = cv2.putText(new_frame, g_classes[s_class], (int(d.xmin), int(d.ymin)),
+    new_frame = cv2.putText(new_frame, g_classes[g_classes['Class'] == s_class]['Type'].item(), (int(d.xmin), int(d.ymin)),
                               cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 0, 0), 1, cv2.LINE_AA)
     return new_frame
 
