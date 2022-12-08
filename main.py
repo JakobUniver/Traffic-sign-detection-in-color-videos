@@ -11,7 +11,7 @@ SignLoc = object #
 Frame = np.array # shape(x,y,3)
 
 # Model imports
-g_yolo_model = torch.hub.load('./yolov7', 'custom', 'model.pt', source='local')
+g_yolo_model =  torch.hub.load('yolov7', 'custom', 'model.pt', source='local') 
 g_lenet_model = keras.models.load_model('lenet_model')
 
 # Configurations
